@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tab menu</title>
+	<style type="text/css">
+body{
+	overflow: hidden;
+}
+#magazine{
+	width: 800px;
+	height: 600px;
+	margin:auto;
+}
+#magazine .turn-page{
+	background-color:#ccc;
+}
+#page1 {
+    background: url(pages/1.jpg);
+    background-size: 100%;
+}
+#page2 {
+    background: url(pages/2.jpg);
+    background-size: 100%;
+}
+#page3 {
+    background: url(pages/3.jpg);
+    background-size: 100%;
+}
+#page4 {
+    background: url(pages/4.jpg);
+    background-size: 100%;
+}
+#page5 {
+    background: url(pages/5.jpg);
+    background-size: 100%;
+}
+#page6 {
+    background: url(pages/6.jpg);
+    background-size: 100%;
+}
+#page7 {
+    background: url(pages/7.jpg);
+    background-size: 100%;
+}
+#page8 {
+    background: url(pages/8.jpg);
+    background-size: 100%;
+}
+#page9 {
+    background: url(pages/9.jpg);
+    background-size: 100%;
+}
+#page10 {
+    background: url(pages/10.jpg);
+    background-size: 100%;
+}
+#page11 {
+    background: url(pages/11.jpg);
+    background-size: 100%;
+}
+#page12 {
+    background: url(pages/12.jpg);
+    background-size: 100%;
+}
+	</style>
+</head>
+<body>
+
+<div id="magazine">
+	<div id="page1"></div>
+	<div id="page2"></div>
+	<div id="page3"></div>
+	<div id="page4"></div>
+	<div id="page5"></div>
+	<div id="page6"></div>
+	<div id="page7"></div>
+	<div id="page8"></div>
+	<div id="page9"></div>
+	<div id="page10"></div>
+	<div id="page11"></div>
+	<div id="page12"></div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="turn.js"></script>
+<script>$('#magazine').turn({gradients: true, acceleration: true});</script>
+</body>
+</html>
